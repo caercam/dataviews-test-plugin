@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "@wordpress/babel-preset-default": "^8.3.0",
+    "@wordpress/dependency-extraction-webpack-plugin": "^6.3.0",
+    "@wordpress/scripts": "^28.3.0"
+  },
+  "dependencies": {
+    "@wordpress/dataviews": "^3.0.0",
+    "@wordpress/element": "^6.3.0"
+  },
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  }
+}
